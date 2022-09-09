@@ -1,0 +1,22 @@
+Source: oxdna
+Section: misc
+Priority: optional
+Maintainer: Constantine Evans <const@costi.eu>
+Build-Depends: debhelper-compat (= 13), python3 (>=3.8), dh-python
+Standards-Version: 4.5.1
+Homepage: https://github.com/lorenzo-rovigatti/oxDNA
+#Vcs-Browser: https://salsa.debian.org/debian/oxdna
+#Vcs-Git: https://salsa.debian.org/debian/oxdna.git
+Rules-Requires-Root: no
+
+Package: oxdna
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3 (>=3.8), ${python3:Depends}
+Description: simulator for DNA, RNA and more
+  oxDNA is a simulation code that was initially conceived as an
+  implementation of the coarse-grained DNA model introduced by
+  T. E. Ouldridge, J. P. K. Doye and A. A. Louis. It has been since
+  reworked and it is now an extensible simulation+analysis
+  framework. It natively supports DNA, RNA, Lennard-Jones and patchy
+  particle simulations of different kinds on both single CPU cores and
+  NVIDIA GPUs.

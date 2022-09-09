@@ -1,0 +1,2 @@
+obj-${DEB_HOST_GNU_TYPE}/bin/* /usr/bin
+obj-${DEB_HOST_GNU_TYPE}/src/liboxdna_common* /usr/lib

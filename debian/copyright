@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: oxdna
+Upstream-Contact: Lorenzo Rovigatti <lorenzo.rovigatti@gmail.com>
+Source: <https://github.com/lorenzo-rovigatti/oxDNA>
+
+Files: *
+Copyright: 2012-2022 oxDNA Upstream
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2022 Constantine Evans <const@costi.eu>
+License: GPL-3+
